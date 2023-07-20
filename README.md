@@ -1,2 +1,2 @@
 # High-Move-Car-rental
-HTML, CSS, Bootstrap y JS
+HTML, CSS JS
