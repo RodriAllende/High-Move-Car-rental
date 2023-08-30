@@ -1,0 +1,18 @@
+/* Estilos para la sección con imagen de fondo */
+.bg-image-section {
+    background-image: url('../images/aereacarlospaz_auto_x2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0; /* Ajusta el espaciado como desees */
+    color: white; /* Asegura que el texto sea legible en la imagen de fondo */
+  }
+  
+
+.card{
+    border: solid 1px  green;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-size: contain;
+}
+
