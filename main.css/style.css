@@ -1,18 +1,15 @@
-/* Estilos para la sección con imagen de fondo */
-.bg-image-section {
-    background-image: url('../images/aereacarlospaz_auto_x2.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 100px 0; /* Ajusta el espaciado como desees */
-    color: white; /* Asegura que el texto sea legible en la imagen de fondo */
+div.card{ border: solid green 2px;
+    
+    max-width: 100%; /* La imagen no puede ser más ancha que su contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+    display: block; /* Evitar espacios adicionales debajo de la imagen */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+   overflow: hidden; /* Ocultar el contenido que se desborda */
+    text-overflow: ellipsis; /* Mostrar puntos suspensivos si el texto es demasiado largo */
+    white-space: nowrap; /* Evitar el salto de línea del texto */
   }
   
 
-.card{
-    border: solid 1px  green;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    background-size: contain;
-}
+
+
 
