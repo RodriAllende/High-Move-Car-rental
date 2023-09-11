@@ -2,44 +2,81 @@
 
 .navbar-brand{
   display: flex;
-
-  max-width: 100%;
+ max-width: 100%;
   max-height: 100%;
   margin-left: 90px;
   flex-direction: column;
- 
+  border: solid green 2px;
 }
 
 .what{
 
   max-width: 50%;
   max-height: 50%;
+  border: solid green 2px;
+}
+
+
+#presentacion{
+
+  border: border: solid green 2px;
+ 
+}
+
+#barranavegacion{
+
+ 
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  padding-right: 200px;
+  border: solid green 2px;
+}
+
+#intro{
+
+  background-color:#E30613;
+  color: white;
+  margin-bottom: 100px;
+  border: solid green 2px;
+
+ 
+}
+
+#encabezado{
+
+  background-color: #E30613;
+  border: solid green 2px;
+ 
+}
+
+#navegacion{ 
+  
+  padding-right:300px;
+  color: black;
+font-size: large;
+border: solid 10px blue;
+gap: 50px;
+ 
+
 }
 
 
 
-#intro{
+#intro2{
+  
+  margin-top: 60px; 
+  border: solid green 2px;
 
-  border: solid 2px red;
-background-color: ;
+ 
+ 
+ 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a.nav-link{
+  color: aquamarine;
+  border: solid green 2px;
+}
 
 
 
@@ -54,7 +91,18 @@ div.card{ border: solid green 2px;
     white-space: nowrap; /* Evitar el salto de línea del texto */
   }
   
+#intro3{
 
+display: grid;
+place-items: center;
+  background-color:#E30613;
+  margin-top: 60px;
+  color: white;
+  border: solid green 2px;
+}
 
+#formatototal{
 
-
+  background-color:#E30613;
+  border: solid green 2px;
+}
