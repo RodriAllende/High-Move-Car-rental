@@ -1,111 +1,66 @@
+.logorental {
+  width: 150px;
+  height: 100px;
+  padding-top: 7px;
+  margin-left: 0%;
+
+  padding-left: 0%;
+}
+
+img.what{
+
+height: 120px;
+width: 150px;
+}
+
+#ftco-nav{ 
+
+  padding-left: 450px;
+}
+
+.autoportada{
+  border: solid 10px red;
 
 
-.navbar-brand{
+}
+
+
+section.barranavegacion{
+
+  background-color: blue;
+}
+
+/* Estilos para hacer que el video ocupe todo el ancho */
+.video-section {
+  width: 100%;
+  height: 100vh; /* Ajusta la altura al 100% del viewport (pantalla) */
+  overflow: hidden;
+  position: relative;
+}
+
+.video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+div.card {
+  height: 100%; /* Asegura que la tarjeta tenga la misma altura */
   display: flex;
- max-width: 100%;
-  max-height: 100%;
-  margin-left: 90px;
   flex-direction: column;
-  border: solid green 2px;
 }
 
-.what{
-
-  max-width: 50%;
-  max-height: 50%;
-  border: solid green 2px;
+div.card-img-top {
+  max-height: 100%; /* Establece una altura máxima para la imagen */
+  width: auto; /* Permite que el ancho se ajuste automáticamente */
 }
 
 
-#presentacion{
-
-  border: border: solid green 2px;
- 
+div.card-body {
+  flex-grow: 1; /* Permite que el contenido del card-body se expanda verticalmente */
+  overflow: auto; /* Agrega una barra de desplazamiento vertical si el contenido es demasiado largo */
 }
-
-#barranavegacion{
-
- 
-  display: flex ;
-  justify-content: center;
-  align-items: center;
-  padding-right: 200px;
-  border: solid green 2px;
-}
-
-#intro{
-
-  background-color:#E30613;
-  color: white;
-  margin-bottom: 100px;
-  border: solid green 2px;
-
- 
-}
-
-#encabezado{
-
-  background-color: #E30613;
-  border: solid green 2px;
- 
-}
-
-#navegacion{ 
-  
-  padding-right:300px;
-  color: black;
-font-size: large;
-border: solid 10px blue;
-gap: 50px;
- 
-
-}
-
-
-
-#intro2{
-  
-  margin-top: 60px; 
-  border: solid green 2px;
-
- 
- 
- 
-}
-
-a.nav-link{
-  color: aquamarine;
-  border: solid green 2px;
-}
-
-
-
-div.card{ border: solid green 2px;
-    
-    max-width: 100%; /* La imagen no puede ser más ancha que su contenedor */
-    height: auto; /* Mantener la proporción de la imagen */
-    display: block; /* Evitar espacios adicionales debajo de la imagen */
-    margin: 0 auto; /* Centrar la imagen horizontalmente */
-   overflow: hidden; /* Ocultar el contenido que se desborda */
-    text-overflow: ellipsis; /* Mostrar puntos suspensivos si el texto es demasiado largo */
-    white-space: nowrap; /* Evitar el salto de línea del texto */
-  }
-  
-#intro3{
-
-display: grid;
-place-items: center;
-  background-color:#E30613;
-  margin-top: 60px;
-  color: white;
-  border: solid green 2px;
-}
-
-#formatototal{
-
-  
-  border: solid green 2px;
-}
-
-
-
