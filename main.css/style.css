@@ -3,42 +3,16 @@
   height: 100px;
   padding-top: 7px;
   margin-left: 0%;
-
-  padding-left: 0%;
+ padding-left: 0%;
 }
 
-img.what{
-
-height: 120px;
-width: 150px;
-}
 
 #ftco-nav{ 
 
-  padding-left: 450px;
-}
-
-.autoportada{
-  border: solid 10px red;
-
+  padding-left: 650px;
 
 }
 
-
-section.barranavegacion{
-
-  background-color: blue;
-}
-
-/* Estilos para hacer que el video ocupe todo el ancho */
-
- 
- 
-
-
-/* Estilo para el contenedor del video */
-
-/* Estilo para el contenedor del video */
 .video-section {
   width: 100%; /* Ancho del contenedor al 100% del viewport (pantalla) */
   height: 0; /* Altura inicial en 0 para que el padding-bottom cree espacio */
@@ -56,21 +30,16 @@ section.barranavegacion{
   top: 0;
   left: 0;
 }
+ #body1{
 
+  background-color:#e30613; 
+  padding-left: 10%;
+  padding-right: 10%;
+ 
+ }
 
-div.card {
-  height: 100%; /* Asegura que la tarjeta tenga la misma altura */
-  display: flex;
-  flex-direction: column;
-}
+ #fotos{
 
-div.card-img-top {
-  max-height: 100%; /* Establece una altura máxima para la imagen */
-  width: auto; /* Permite que el ancho se ajuste automáticamente */
-}
-
-
-div.card-body {
-  flex-grow: 1; /* Permite que el contenido del card-body se expanda verticalmente */
-  overflow: auto; /* Agrega una barra de desplazamiento vertical si el contenido es demasiado largo */
-}
+width: fit-content;
+height: fit-content;
+ }
