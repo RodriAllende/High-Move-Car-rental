@@ -31,17 +31,27 @@ section.barranavegacion{
 }
 
 /* Estilos para hacer que el video ocupe todo el ancho */
+
+ 
+ 
+
+
+/* Estilo para el contenedor del video */
+
+/* Estilo para el contenedor del video */
 .video-section {
-  width: 100%;
-  height: 100vh; /* Ajusta la altura al 100% del viewport (pantalla) */
+  width: 100%; /* Ancho del contenedor al 100% del viewport (pantalla) */
+  height: 0; /* Altura inicial en 0 para que el padding-bottom cree espacio */
+  padding-bottom: 80.25%; /* Mantener la relación de aspecto 16:9 (9/16 = 56.25%) */
   overflow: hidden;
   position: relative;
 }
 
+/* Estilo para el elemento de video */
 .video {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+  width: 100%; /* Ancho del video al 100% del contenedor */
+  height: 100%; /* Altura al 100% para que coincida con la relación de aspecto */
+  object-fit: cover; /* Ajusta el video para llenar el contenedor sin recortar */
   position: absolute;
   top: 0;
   left: 0;
