@@ -5,6 +5,20 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    function mostrarDiaYHora() {
+      const fechaActual = new Date();
+      const opcionesFecha = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      const horaActual = fechaActual.toLocaleTimeString();
+      const diaActual = fechaActual.toLocaleDateString(undefined, opcionesFecha);
+    
+      document.getElementById('hora-actual').textContent = horaActual;
+      document.getElementById('dia-actual').textContent = diaActual;
+    }
+    
+    // Llama a la función para mostrar la hora y el día cuando la página cargue
+    window.onload = mostrarDiaYHora;
+    </script>
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -40,13 +54,13 @@
 
   <header>
     <section class="barranavegacion">
-      <nav class="navbar navbar-expand-lg navbar-white ftco_navbar bg-white ftco-navbar-light" id="ftco-navbar">
+      <nav class="navbar navbar-expand-lg navbar-black ftco_navbar bg-black ftco-navbar-light" id="ftco-navbar">
 
         <div class="container">
           <img class="logorental" src="./images/Logorentalcarhigmove-removebg.png" alt="">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
             aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="oi oi-menu"></span> Menu
+      <span class="oi oi-menu"></span> Menu
           </button>
           <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
@@ -60,18 +74,12 @@
   </header>
   </section>
   <!-- END nav -->
-
-
-
-  <section class="video-section">
+ <section class="video-section">
     <video class="video" autoplay loop muted playsinline>
       <source src="./images/ONIX FINAL (1).mp4" type="video/mp4">
     </video>
   </section>
-
-
-
-
+  
   <section id="main">
 
     <div class="container-fluid my-5">
@@ -84,7 +92,7 @@
       <div class="row">
         <div class="col-md-12">
 
-          <p>La web de renta de vehículos en Villa Carlos Paz! Somos la mejor opción para
+          <p class="intro">La web de renta de vehículos en Villa Carlos Paz! Somos la mejor opción para
             explorar los increíbles paisajes de Córdoba. En High Move, nuestra calidad de atención es insuperable.
             Nuestro equipo está conformado por amantes de los viajes y conocedores de la región, dispuestos a
             brindarte el mejor servicio y asesoramiento personalizado. Te ayudamos a elegir el vehículo perfecto para
@@ -96,17 +104,34 @@
       </div>
     </div>
   </section>
+  <div class="hero-wrap ftco-degree-bg" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
+        <div class="col-lg-8 ftco-animate">
+          <div class="text w-100 text-center mb-md-5 pb-md-5">
+            <h1 class="mb-4">La forma mas rapida  de alquilar un  auto en Villa Carlos Paz</h1>
+            <p style="font-size: 18px;">Somos una empresa familiar nacida en Carlos Paz , decidida a brindar servicios de Calidad</p>
+            
+           
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <h2 id="titulo">NUESTA FLOTA</h2>
 
+  <section class="autos">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-4">
         <div class="card">
           <img src="./images/duster_auto_x2.jpg" class="card-img-top" alt="Imagen 1">
           <div class="card-body">
-            <h5 class="card-title">Título 1</h5>
-            <p class="card-text">Este es un pequeño texto para el contenedor 1.</p>
+            <h5 class="card-title">Renault Duster</h5>
+            <p class="card-text">Suv</p>
           </div>
         </div>
       </div>
@@ -114,8 +139,8 @@
         <div class="card">
           <img src="./images/corolla_auto_x2.jpg" class="card-img-top" alt="Imagen 2">
           <div class="card-body">
-            <h5 class="card-title">Título 2</h5>
-            <p class="card-text">Este es un pequeño texto para el contenedor 2.</p>
+            <h5 class="card-title">Toyota Corolla</h5>
+            <p class="card-text">Sedán</p>
           </div>
         </div>
       </div>
@@ -123,8 +148,8 @@
         <div class="card">
           <img src="./images/amarok.png" class="card-img-top" alt="Imagen 3">
           <div class="card-body">
-            <h5 class="card-title">Título 3</h5>
-            <p class="card-text">Este es un pequeño texto para el contenedor 3.</p>
+            <h5 class="card-title">Volkswagen amarok</h5>
+            <p class="card-text">4 x 4</p>
           </div>
         </div>
       </div>
@@ -132,10 +157,10 @@
     <div class="row">
       <div class="col-md-4">
         <div class="card">
-          <img src="./images/duster_auto_x2.jpg" class="card-img-top" alt="Imagen 4">
+          <img src="./images/etios_auto_x2.jpg" class="card-img-top" alt="Imagen 4">
           <div class="card-body">
-            <h5 class="card-title">Título 4</h5>
-            <p class="card-text">Este es un pequeño texto para el contenedor 4.</p>
+            <h5 class="card-title">Toyota Etios</h5>
+            <p class="card-text">Sedán</p>
           </div>
         </div>
       </div>
@@ -143,8 +168,8 @@
         <div class="card">
           <img src="./images/FOCUS_auto_x2.jpg" class="card-img-top" alt="Imagen 5">
           <div class="card-body">
-            <h5 class="card-title">Título 5</h5>
-            <p class="card-text">Este es un pequeño texto para el contenedor 5.</p>
+            <h5 class="card-title">Ford Focus</h5>
+            <p class="card-text">Sedán</p>
           </div>
         </div>
       </div>
@@ -152,18 +177,20 @@
         <div class="card">
           <img src="./images/onix_auto_x2.jpg" class="card-img-top" alt="Imagen 6">
           <div class="card-body">
-            <h5 class="card-title">Título 6</h5>
-            <p class="card-text">Este es un pequeño texto para el contenedor 6.</p>
+            <h5 class="card-title">Chevrolet Onix</h5>
+            <p class="card-text">Compacto</p>
           </div>
         </div>
       </div>
     </div>
   </div>
+</section>
 
-</body>
 
-</html>
 
+
+
+<div id="fecha-hora"></div>
 
 
 <!--========================================================== -->
@@ -182,18 +209,11 @@
           clientes. Estamos ubicados en Brickell, el corazon y el centro financiero de Miami, cerca de los mejores
           restaurantes, tiendas y tan solo 15 minutos de las playas. ¡Visitennos y no se arrepentiran!</p>
         <section class="d-flex justify-content-start" id="numeros-local">
-          <div>
-            <p class="text-primary fs-5">200</p>
-            <p>Dias de Sol</p>
-          </div>
-          <div>
-            <p class="text-primary fs-5">100%</p>
-            <p>Aprobado</p>
-          </div>
-          <div>
-            <p class="text-primary fs-5">24 °C</p>
-            <p>Temperatura</p>
-          </div>
+          <p>El día actual es: <span id="dia-actual"></span></p>
+          <span><p>La hora actual es: <span id="hora-actual"></span></p></span>
+
+          
+          
         </section>
       </div>
     </div>
@@ -277,6 +297,7 @@
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <script src="main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 </section>
 
