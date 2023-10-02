@@ -3,43 +3,86 @@
   height: 100px;
   padding-top: 7px;
   margin-left: 0%;
- padding-left: 0%;
+  padding-left: 0%;
 }
 
 
-#ftco-nav{ 
+#ftco-nav {
 
   padding-left: 650px;
 
 }
 
 .video-section {
-  width: 100%; /* Ancho del contenedor al 100% del viewport (pantalla) */
-  height: 0; /* Altura inicial en 0 para que el padding-bottom cree espacio */
-  padding-bottom: 80.25%; /* Mantener la relación de aspecto 16:9 (9/16 = 56.25%) */
+  width: 100%;
+  /* Ancho del contenedor al 100% del viewport (pantalla) */
+  height: 0;
+  /* Altura inicial en 0 para que el padding-bottom cree espacio */
+  padding-bottom: 80.25%;
+  /* Mantener la relación de aspecto 16:9 (9/16 = 56.25%) */
   overflow: hidden;
   position: relative;
 }
 
 /* Estilo para el elemento de video */
 .video {
-  width: 100%; /* Ancho del video al 100% del contenedor */
-  height: 100%; /* Altura al 100% para que coincida con la relación de aspecto */
-  object-fit: cover; /* Ajusta el video para llenar el contenedor sin recortar */
+  width: 100%;
+  /* Ancho del video al 100% del contenedor */
+  height: 100%;
+  /* Altura al 100% para que coincida con la relación de aspecto */
+  object-fit: cover;
+  /* Ajusta el video para llenar el contenedor sin recortar */
   position: absolute;
   top: 0;
   left: 0;
 }
- #body1{
 
-  background-color:#e30613; 
+#main{
+
+  background-color: #e30613;
   padding-left: 10%;
   padding-right: 10%;
- 
+
+}
+
+
+
+#titulo {
+
+  display: flex;
+  justify-content: center;
+  border: solid 3px pink;
+  padding-bottom: 30px;
+
+}
+
+#Bienvenido{
+  display: flex;
+  justify-content: center;
+  border: solid 2px blue;
+}
+div.custom-container{
+  border: solid 2px blue;
+  margin: 4px;
+ width: 100%;
+ height:auto;
+
+
+}
+ section.grid-autos{
+
+  background-color: darksalmon;
  }
 
- #fotos{
+.card {
+  margin-bottom: 20px;
+}
 
-width: fit-content;
-height: fit-content;
- }
+.card-img-top {
+  width: 100%;
+  height: 200px;
+}
+
+.card-body {
+  text-align: center;
+}
