@@ -13,8 +13,8 @@
   background-color:#e30613;
   margin-left: 60px;
   justify-content: flex-end;
-  border: solid 10px greenyellow;
-  font-family: mifuente;
+ font-family: mifuente;
+ font-size: 20px;
   
 }
 
@@ -68,6 +68,8 @@ font-family: mifuente;
   justify-content: center;
   border: solid 2px blue;
   font-family: mifuente;
+  font-size: 60px;
+  font-weight: bold;
 }
 div.custom-container{
   border: solid 2px blue;
@@ -124,6 +126,7 @@ font-size: x-large;}
 
 /* Estilos para el botón flotante de WhatsApp */
 .whatsapp-button {
+
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -132,7 +135,7 @@ font-size: x-large;}
 
 .whatsapp-button a {
   display: block;
-  background-image: url(../images/icons8-whatsapp.gif);
+  background-image: url(../images/whatsapp.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff; /* Color del texto */
