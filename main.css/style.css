@@ -14,7 +14,7 @@
   margin-left: 60px;
   justify-content: flex-end;
   border: solid 10px greenyellow;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family: mifuente;
   
 }
 
@@ -47,6 +47,7 @@
   background-color: #e30613;
   padding-left: 10%;
   padding-right: 10%;
+  font-family: mifuente;
 
 
 }
@@ -54,7 +55,7 @@
 
 
 #titulo {
-
+font-family: mifuente;
   display: flex;
   justify-content: center;
   border: solid 3px pink;
@@ -66,22 +67,26 @@
   display: flex;
   justify-content: center;
   border: solid 2px blue;
+  font-family: mifuente;
 }
 div.custom-container{
   border: solid 2px blue;
   margin: 4px;
  width: 100%;
  height:auto;
+ font-family: mifuente;
 
 
 }
  section.grid-autos{
 
   background-color: darksalmon;
+  font-family: mifuente;
  }
 
 .card {
   margin-bottom: 20px;
+  font-family: mifuente;
 }
 
 .card-img-top {
@@ -95,8 +100,52 @@ div.custom-container{
 section.autos{
 background-color: #e30613;
 padding-top: 20px;
+font-family: mifuente;
 
 }
 p.intro{
-   font-family: 'Lato', sans-serif;
+font-family: mifuente;
 font-size: x-large;}
+
+@font-face {
+  font-family: mifuente;
+  src: url(./Helvetica_Now/Helvetica_Now/);
+}
+ body{
+  font-family: mifuente;
+ }
+ #intro2{
+  font-family: mifuente;
+ }
+ #local{
+  font-family: mifuente;
+
+ }
+
+/* Estilos para el botón flotante de WhatsApp */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999; /* Asegura que esté por encima de otros elementos */
+}
+
+.whatsapp-button a {
+  display: block;
+  background-image: url(../images/icons8-whatsapp.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff; /* Color del texto */
+  border-radius: 50%; /* Forma redonda */
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Efecto de transición al pasar el mouse */
+}
+
+.whatsapp-button a:hover {
+  background-color: #128c7e; /* Cambia el color de fondo al pasar el mouse */
+}
