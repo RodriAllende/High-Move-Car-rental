@@ -1,111 +1,102 @@
+.logorental {
+  width: 150px;
+  height: 100px;
+  padding-top: 7px;
+  margin-left: 0%;
+  padding-left: 0%;
+  background-color: white;
+}
 
 
-.navbar-brand{
+#ftco-nav {
+
+  background-color:#e30613;
+  margin-left: 60px;
+  justify-content: flex-end;
+  border: solid 10px greenyellow;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+  
+}
+
+.video-section {
+  width: 100%;
+  /* Ancho del contenedor al 100% del viewport (pantalla) */
+  height: 0;
+  /* Altura inicial en 0 para que el padding-bottom cree espacio */
+  padding-bottom: 80.25%;
+  /* Mantener la relación de aspecto 16:9 (9/16 = 56.25%) */
+  overflow: hidden;
+  position: relative;
+}
+
+/* Estilo para el elemento de video */
+.video {
+  width: 100%;
+  /* Ancho del video al 100% del contenedor */
+  height: 100%;
+  /* Altura al 100% para que coincida con la relación de aspecto */
+  object-fit: cover;
+  /* Ajusta el video para llenar el contenedor sin recortar */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#main{
+
+  background-color: #e30613;
+  padding-left: 10%;
+  padding-right: 10%;
+
+
+}
+
+
+
+#titulo {
+
   display: flex;
- max-width: 100%;
-  max-height: 100%;
-  margin-left: 90px;
-  flex-direction: column;
-  border: solid green 2px;
-}
-
-.what{
-
-  max-width: 50%;
-  max-height: 50%;
-  border: solid green 2px;
-}
-
-
-#presentacion{
-
-  border: border: solid green 2px;
- 
-}
-
-#barranavegacion{
-
- 
-  display: flex ;
   justify-content: center;
-  align-items: center;
-  padding-right: 200px;
-  border: solid green 2px;
-}
-
-#intro{
-
-  background-color:#E30613;
-  color: white;
-  margin-bottom: 100px;
-  border: solid green 2px;
-
- 
-}
-
-#encabezado{
-
-  background-color: #E30613;
-  border: solid green 2px;
- 
-}
-
-#navegacion{ 
-  
-  padding-right:300px;
-  color: black;
-font-size: large;
-border: solid 10px blue;
-gap: 50px;
- 
+  border: solid 3px pink;
+  padding-bottom: 30px;
 
 }
 
+#Bienvenido{
+  display: flex;
+  justify-content: center;
+  border: solid 2px blue;
+}
+div.custom-container{
+  border: solid 2px blue;
+  margin: 4px;
+ width: 100%;
+ height:auto;
 
 
-#intro2{
-  
-  margin-top: 60px; 
-  border: solid green 2px;
+}
+ section.grid-autos{
 
- 
- 
- 
+  background-color: darksalmon;
+ }
+
+.card {
+  margin-bottom: 20px;
 }
 
-a.nav-link{
-  color: aquamarine;
-  border: solid green 2px;
+.card-img-top {
+  width: 50%;
+  height: 200px;
 }
 
-
-
-div.card{ border: solid green 2px;
-    
-    max-width: 100%; /* La imagen no puede ser más ancha que su contenedor */
-    height: auto; /* Mantener la proporción de la imagen */
-    display: block; /* Evitar espacios adicionales debajo de la imagen */
-    margin: 0 auto; /* Centrar la imagen horizontalmente */
-   overflow: hidden; /* Ocultar el contenido que se desborda */
-    text-overflow: ellipsis; /* Mostrar puntos suspensivos si el texto es demasiado largo */
-    white-space: nowrap; /* Evitar el salto de línea del texto */
-  }
-  
-#intro3{
-
-display: grid;
-place-items: center;
-  background-color:#E30613;
-  margin-top: 60px;
-  color: white;
-  border: solid green 2px;
+.card-body {
+  text-align: center;
 }
+section.autos{
+background-color: #e30613;
+padding-top: 20px;
 
-#formatototal{
-
-  
-  border: solid green 2px;
 }
-
-
-
+p.intro{
+   font-family: 'Lato', sans-serif;
+font-size: x-large;}
