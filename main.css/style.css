@@ -1,3 +1,7 @@
+body{
+  background-color: darkorange;
+}
+
 .logorental {
   width: 150px;
   height: 100px;
@@ -64,7 +68,11 @@ font-family: mifuente;
   justify-content: center;
   border: solid 3px pink;
   padding-bottom: 30px;
+  font-size: 50px;
   font-weight: bold;
+  margin-top: -50px;
+  background-color: black;
+  color: #e30613;
 
 }
 
@@ -105,7 +113,7 @@ div.custom-container{
   text-align: center;
 }
 section.autos{
-background-color: #e30613;
+border: solid 2px #e30613;
 padding-top: 20px;
 margin-left: 10px;
 margin-right: 10px;
@@ -128,6 +136,8 @@ font-size: x-large;}
   font-weight: bold;
   font-size: 30px;
   font-weight: bold;
+  margin-bottom: -20px;
+  background-color: #128c7e;
  }
  #local{
   font-family: mifuente;
@@ -176,3 +186,4 @@ h1.mb-4{
   font-size: 50px;
   font-weight: bold;
 }
+
