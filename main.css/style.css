@@ -1,103 +1,38 @@
-body{
-  background-color: darkorange;
+/* Estilo para el logotipo */
+.logo {
+  max-width: 150px; /* Ajusta el ancho máximo según tus preferencias */
+  margin-right: 30px; /* Espacio entre el logotipo y el texto del encabezado */
 }
 
-.logorental {
-  width: 150px;
-  height: 100px;
-  padding-top: 7px;
-  margin-left: 0%;
-  padding-left: 0%;
-  background-color: white;
+/* Asegúrate de que el logotipo no se estire si es demasiado grande */
+.navbar-brand {
+  display: flex;
+  align-items: center;
 }
 
-
-#ftco-nav { 
-
-  background-color:#e30613;
-  margin-left: 60px;
-  justify-content: flex-end;
- font-family: mifuente;
- font-size: 20px;
- font-weight: bold;
-
- 
-  
-}
 
 .video-section {
   width: 100%;
-  /* Ancho del contenedor al 100% del viewport (pantalla) */
   height: 0;
-  /* Altura inicial en 0 para que el padding-bottom cree espacio */
   padding-bottom: 80.25%;
-  /* Mantener la relación de aspecto 16:9 (9/16 = 56.25%) */
   overflow: hidden;
   position: relative;
 }
 
-/* Estilo para el elemento de video */
 .video {
   width: 100%;
-  /* Ancho del video al 100% del contenedor */
   height: 100%;
-  /* Altura al 100% para que coincida con la relación de aspecto */
   object-fit: cover;
-  /* Ajusta el video para llenar el contenedor sin recortar */
   position: absolute;
   top: 0;
   left: 0;
 }
 
-#main{
+section.grid-autos {
 
-  background-color: #e30613;
-  padding-left: 10%;
-  padding-right: 10%;
+
   font-family: mifuente;
-  font-weight: bold;
-
-
 }
-
-
-
-#titulo {
-font-family: mifuente;
-  display: flex;
-  justify-content: center;
-  border: solid 3px pink;
-  padding-bottom: 30px;
-  font-size: 50px;
-  font-weight: bold;
-  margin-top: -50px;
-  background-color: black;
-  color: #e30613;
-
-}
-
-#Bienvenido{
-  display: flex;
-  justify-content: center;
-  border: solid 2px blue;
-  font-family: mifuente;
-  font-size: 60px;
-  font-weight: bold;
-}
-div.custom-container{
-  border: solid 2px blue;
-  margin: 4px;
- width: 100%;
- height:auto;
- font-family: mifuente;
-
-
-}
- section.grid-autos{
-
-  background-color: darksalmon;
-  font-family: mifuente;
- }
 
 .card {
   margin-bottom: 20px;
@@ -112,46 +47,33 @@ div.custom-container{
 .card-body {
   text-align: center;
 }
-section.autos{
-border: solid 2px #e30613;
-padding-top: 20px;
-margin-left: 10px;
-margin-right: 10px;
-font-family: mifuente;
+
+section.autos {
+  border: solid 2px #e30613;
+  padding-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: mifuente;
 
 }
-p.intro{
-font-family: mifuente;
-font-size: x-large;}
+
 
 @font-face {
   font-family: mifuente;
   src: url(./Helvetica_Now/Helvetica_Now/);
 }
- body{
-  font-family: mifuente;
- }
- #intro2{
-  font-family: mifuente;
-  font-weight: bold;
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: -20px;
-  background-color: #128c7e;
- }
- #local{
-  font-family: mifuente;
-  font-weight: bold;
 
- }
+body {
+  font-family: mifuente;
+}
 
-/* Estilos para el botón flotante de WhatsApp */
+
 .whatsapp-button {
 
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 999; /* Asegura que esté por encima de otros elementos */
+  z-index: 999;
 }
 
 .whatsapp-button a {
@@ -159,31 +81,29 @@ font-size: x-large;}
   background-image: url(../images/whatsapp.png);
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff; /* Color del texto */
-  border-radius: 50%; /* Forma redonda */
+  color: #fff;
+  border-radius: 50%;
   width: 60px;
   height: 60px;
   text-align: center;
   line-height: 60px;
   font-size: 20px;
   text-decoration: none;
-  transition: background-color 0.3s ease; /* Efecto de transición al pasar el mouse */
+  transition: background-color 0.3s ease;
 }
 
 .whatsapp-button a:hover {
-  background-color: #128c7e; /* Cambia el color de fondo al pasar el mouse */
+  background-color: #128c7e;
 }
-h1.mb-4{
 
-  border: solid 2px blue;
+
+#seccion-contacto {
   font-family: mifuente;
   font-size: 50px;
   font-weight: bold;
 }
-
-#seccion-contacto{
-  font-family: mifuente;
-  font-size: 50px;
-  font-weight: bold;
+.navbar-scroll {
+  background-color: #333; /* Cambia el color de fondo cuando se colapsa */
+  height: 120px; /* Cambia la altura de la barra colapsada según tus necesidades */
+  transition: background-color 0.3s; /* Agrega una transición suave de color de fondo */
 }
-
