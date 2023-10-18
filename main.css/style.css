@@ -1,14 +1,10 @@
 
-@font-face {
-  font-family: 'Nova';
-  src: url(../assets/fonts/nova.);
- 
-}
 
 html {
-  font-weight: 500;
-  font-family: 'Nova';
-  background-color: #e30613;
+  
+  font-family: 'Bona Nova', serif;
+
+
   }
   
 
@@ -20,6 +16,8 @@ html {
 .navbar-brand {
   display: flex;
   align-items: center;
+  font-family: 'Bona Nova', serif;
+
 }
 
 
@@ -59,7 +57,7 @@ h5.card-title {
   width: 270px;
   margin-bottom: 20px;
   font-weight: bold;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Bona Nova', serif;
   margin-left: 40px;
   margin-right: 40px;
   border: solid 3px red;
@@ -80,14 +78,14 @@ h5.card-title {
 
   height: 135px;
   font-weight: bold;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-family: 'Bona Nova', serif;
 }
 
 .card-body {
   background-color: #e30613;
   text-align: center;
   font-weight: bold;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-family: 'Bona Nova', serif;
 }
 
 
@@ -125,12 +123,7 @@ h5.card-title {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 50px;
   font-weight: bold;
-  background-image: url(../images/bannerposta.jpg);
-  background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; 
-    width: 100%; 
+  
     margin-top: -50px;
   
 }
@@ -159,40 +152,31 @@ h5.card-title {
   text-align: center;
   width: 100%;
   font-weight: bold;
+  font-family: 'Bona Nova', serif;
+
 
 
 }
 
-#main {
-  
-    background-image: url(../images/bannerposta.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; 
-    width: 100%; 
-    margin-top: -50px;
-  }
-  
+
 
 #cuerpouno {
   color: black;
-  background-image: url(../images/bannerposta.jpg);
+  background-image: url(../images/bannerdadovuela.jpg);  
   background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
- 
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Bona Nova', serif;
+
   
 
 }
  
 
 #titulo {
-  background-image: url(../images/fondorojo.jpg);
   text-align: center;
   font-size: 50px;
   color:black;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding-bottom: 60px;
   margin: 0;
   text-align: center;
@@ -200,19 +184,19 @@ h5.card-title {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Bona Nova', serif;
+
 }
 
 
 #Bienvenido {
   text-align: center;
   justify-content: center;
-  margin-top: 50px;
   font-size: 70px;
   color: black;
   font-weight: bold;
-  background-image: url(../images/bannerposta.jpg);
-  background-size: cover; 
-background-position: center;
+  font-family: 'Bona Nova', serif;
+
 
 
 
@@ -223,9 +207,7 @@ background-position: center;
   color: black;
 font-weight: bold;
   text-align: center;
-  background-image: url(../images/bannerposta.jpg);
-  background-size: cover; 
-background-position: center;
+
 margin-left: -23px;
 margin-right: -23px;
 
@@ -233,7 +215,9 @@ margin-right: -23px;
 
 .nav-link {
   color: red;
-  /* Cambia el color de texto a blanco */
+  font-family: 'Bona Nova', serif;  
+
+
 }
 
 /* Si deseas cambiar el color al pasar el cursor (hover), puedes agregar lo siguiente: */
@@ -244,25 +228,54 @@ margin-right: -23px;
 
 footer {
   background-color: #e30613;
+  font-family: 'Bona Nova', serif;
+
   color: white;
 }
 
-#autos{
-  background-image: url(../images/bannerposta.jpg);  
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
- 
+
    
  
-  }
+  
   #elige{
     text-align: center;
     justify-content: center;
     margin-bottom: 40px;
     font-weight: bold;
     font-size:40px;
-  background-color:  #e30613;
-color: white;}
+
+color:black;}
   
+ #todo{
+  background-image: url(../images/bannerposta.jpg);  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -48PX;
+  margin-left: 0PX;
+  margin-right: 0px;
  
+ }
+
+
+.color-bar {
+  height: 40px; 
+  background-color:#e30613;
+}
+
+#titulo-formulario{
+  background-color: #e30613;
+  margin-top: 30px;
+  font-family: 'Bona Nova', serif;
+  color: white;
+
+}
+
+#boton{
+  background-color: #e30613;
+  font-family: 'Bona Nova', serif;
+
+}
+ #iconos{
+  background-color: #e30613;
+ }
