@@ -1,11 +1,15 @@
 body{
   margin: 0;
 }
-
+@font-face {
+  font-family: 'Nova';
+  src: url(../assets/fonts/nova.);
+ 
+}
 
 html {
   font-weight: 500;
-  font-family: 'Libre Bodoni', serif;
+  font-family: 'Nova';
 }
 
 .logo {
@@ -121,6 +125,7 @@ h5.card-title {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 50px;
   font-weight: bold;
+  
 }
 
 .navbar-scroll {
@@ -143,7 +148,7 @@ h5.card-title {
   font-size: 3rem;
   margin: 0;
   padding: 0;
-  color: black;
+  color:black;
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   width: 100%;
@@ -153,26 +158,28 @@ h5.card-title {
 
 #main {
   
-    background-image: url(../images/escritorio.jpg);
+    background-image: url(../images/aaaaaaaaaaaaaa.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh; /* Ajustamos la altura al 100% de la ventana visible */
-    width: 100%; /* Ajustamos el ancho al 100% del contenedor */
+    height: 100vh; 
+    width: 100%; 
+    margin-top: -50px;
   }
   
 
 #cuerpouno {
-  background-image: url(../images/esxritorio2.jpg );
+  color: black;
+  background-image: url(../images/aaaaaaaaaaaaaa.jpg);
   background-size: cover;
-  background-position: center;
+  
   background-repeat: no-repeat;
   height: 50vh; /* Ajustamos la altura al 100% de la ventana visible */
-  width: 100%; /* Ajustamos el ancho al 100% del contenedor */}
+  width: 100%; /* Ajustamos el ancho al 100% del contenedor */
+padding-bottom: 100px;
+
+}
  
-
-
-  
 
 #titulo {
   background-image: url(../images/fondorojo.jpg);
@@ -187,23 +194,13 @@ h5.card-title {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
-
-
-
 }
 
-#main {
-
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  justify-content: center;
-  text-align: center;
-}
 
 #Bienvenido {
   text-align: center;
   justify-content: center;
   margin-top: 50px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 70px;
   color: black;
   font-weight: bold;
@@ -216,12 +213,11 @@ h5.card-title {
 
 #intro {
   font-size: 25px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: black;
   margin: 0;
   padding: 0;
   font-weight: bold;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
 }
 
 
@@ -245,10 +241,16 @@ footer {
 }
 
 #autos{
-  background-image: url(../images/banner-de-corte-de-papel-de-fondo-abstracto-degradado-con-formas-geom%C3%A9tricas.jpg_s=1024x1024&w=is&k=20&c=nn6vPhGOt1FSQcHzuqf-h9UfxMk51DWX4AKRyFsgrMk=.jpg);
+  background-image: url(../images/aaaaaaaaaaaaaa.jpg);
      background-size: cover;
-    background-position: center;
+    
     background-repeat: no-repeat;
-    height: 100vh; /* Ajustamos la altura al 100% de la ventana visible */
-    width: 100%; /* Ajustamos el ancho al 100% del contenedor */
+ 
+  }
+  #elige{
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    
   }
